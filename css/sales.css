@@ -1,0 +1,78 @@
+.sales__wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 294px;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.sales__wrap-card:nth-child(1) {
+    grid-column: span 1;
+    grid-row: span 1;
+    max-width: 526px;
+    width: 100%;
+    
+}
+
+.sales__wrap-card:nth-child(3) {
+    grid-column: span 1;
+    grid-row: span 1;
+    max-width: 526px;
+    width: 100%;
+
+}
+
+.sales__wrap-card:nth-child(2) {
+    grid-column: span 1;
+    grid-row: span 2;
+    width: 746px;
+    /* width: 100%; */
+}
+
+.sales__wrap-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #E1E1E1;
+    filter: drop-shadow(6px 6px 15px rgba(132, 132, 132, 0.30));
+
+}
+
+.sales__wrap-pierre-desc-subtitle,
+.sales__wrap-diadema-desc-subtitle,
+.sales__wrap-swiss-desc-subtitle {
+    color: #323232;
+    font-family: 'MR';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.sales__wrap-pierre-desc-title,
+.sales__wrap-diadema-desc-title,
+.sales__wrap-swiss-desc-title {
+    color: #000;
+    font-family: 'MB';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.sales__wrap-pierre-desc-price,
+.sales__wrap-diadema-desc-price, 
+.sales__wrap-swiss-desc-price{
+    color: #323232;
+font-family: 'MR';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 16.841px; /* 112.271% */
+text-transform: uppercase;
+}

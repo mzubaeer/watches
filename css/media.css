@@ -1,0 +1,17 @@
+@media screen and (max-width:1300px) {
+    .header__wrap-icons{
+        display: none;
+    }
+}
+@media screen and (max-width:850px) {
+    .header__wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header__wrap-icons{
+        display: flex;
+    }.header__wrap-menu-nav{
+        gap: 20px;
+    }
+}
